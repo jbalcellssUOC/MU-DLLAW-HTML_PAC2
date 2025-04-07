@@ -1,0 +1,130 @@
+:root {
+    --color-negre: rgb(34, 34, 34);
+    --color-taronja: rgb(233, 164, 0);
+    --color-vermell: rgb(214, 40, 40);
+    --color-beix-clar: rgb(242, 239, 234);
+    --color-ocre: rgb(201, 140, 0);
+    --color-blanc: rgb(255, 255, 255);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+
+    background-image: url("../img/bg-home.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+.site-title,
+nav a.active {
+    font-weight: 700;
+}
+
+.index-intro {
+    font-weight: 700;
+}
+
+ol li {
+    font-weight: 700;
+}
+
+.newsletter-title {
+    font-weight: 700;
+}
+
+table th {
+    font-weight: 700;
+}
+
+header {
+    width: 100%;
+}
+
+.FooterWrapper{
+    text-align: center;
+    border-top: 1px solid var(--color-ocre);
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.nav-links li {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li:not(:last-child)::after {
+    content: "|";
+    margin-left: 0.35rem;
+    margin-right: 0.35rem;
+    color: var(--color-ocre);
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--color-negro);
+    font-weight: 400;
+}
+
+.nav-links a[aria-current="page"] {
+    font-weight: 700;
+}
+
+.nav-links.main {
+    border-top: 1px solid var(--color-ocre);
+    border-bottom: 1px solid var(--color-ocre);
+    padding-top: 17px;
+    padding-bottom: 17px;
+    text-transform: uppercase;
+    font-size: 1.3em;
+}
+
+abbr {
+    cursor: help;
+    text-decoration: underline dotted;
+}
+
+.headerTitle {
+    text-align: center;
+}
+
+main{
+    padding: 3em;
+}

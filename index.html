@@ -4,7 +4,6 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <meta name="description" content="Cinema i Llibres landing page" />
         <meta
             name="description"
             content="Cinema i Lletres és un club cultural que connecta el món de la literatura i el cinema. Uneix-te per llegir, veure i debatre grans històries."
@@ -29,19 +28,16 @@
         <!-- Header Data -->
         <header>
             <div class="headerTitle">
-                <!-- Use as a title in a div or h1 avoiding semanthical meaning -->
-                <span class="siteTitle" aria-hidden="true">
-                    <a href="index.html" aria-label="Torna a la pàgina inicial"
-                        >cinema<span class="AndSymbol">&</span>lletres</a
-                    >
-                </span>
+                <h1 class="siteTitle" aria-hidden="true">
+                    <a href="index.html" aria-label="Torna a la pàgina inicial">
+                        cinema<span class="AndSymbol">&</span>lletres
+                    </a>
+                </h1>
             </div>
             <nav aria-label="Navegació principal">
                 <ul class="nav-links main">
                     <li>
-                        <a href="nosaltres.html" aria-current="page"
-                            >Nosaltres</a
-                        >
+                        <a href="nosaltres.html">Nosaltres</a>
                     </li>
                     <li><a href="activitats.html">Activitats</a></li>
                     <li><a href="formulari.html">Fes-te'n soci</a></li>
@@ -50,9 +46,9 @@
         </header>
 
         <!-- Main Content -->
-        <main class="container">
+        <main class="container" role="main">
             <h1 class="MainTitle">Cinema i lletres</h1>
-            <h2 class="subtitle">Un club de lectors i de cinèfils</h2>
+            <h2>Un club de lectors i de cinèfils</h2>
             <p class="lema">
                 Del llibre a la pantalla: llegir, veure i debatre
             </p>
@@ -61,15 +57,14 @@
         <footer>
             <div class="FooterWrapper">
                 <p>
-                    <abbr title="Universitat Oberta de Catalunya">UOC</abbr>.
-                    Maig de 2025. Jordi Balcells Saenz (<a
-                        class="specialHRef"
-                        href="mailto:jbalcellss@uoc.edu"
-                        >jbalcellss@uoc.edu</a
-                    >)
+                    <abbr
+                        title="Universitat Oberta de Catalunya"
+                        aria-label="Universitat Oberta de Catalunya"
+                        >UOC</abbr
+                    >. Maig de 2025. Jordi Balcells Saenz
                 </p>
-                <ul class="nav-links footer">
-                    <li><a href="#" title="Avís legal">Avís legal</a></li>
+                <ul class="nav-links footer-links">
+                    <li><a href="#" title="Avis legal">Avis legal</a></li>
                     <li>
                         <a href="#" title="Política de privacitat"
                             >Política de privacitat</a
@@ -101,7 +96,7 @@
                         target="_blank"
                         rel="noopener noreferrer"
                         >Flaticon</a
-                    >.
+                    >
                 </p>
             </div>
         </footer>
